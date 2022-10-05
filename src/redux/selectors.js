@@ -1,0 +1,1 @@
+export const testStatusSelector =  state => state.test.status;
