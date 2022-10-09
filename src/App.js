@@ -1,7 +1,6 @@
-import 'antd/dist/antd.css';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import './App.css';
+import { TestComponent } from './pages/TestComponent';
 import { testStatusSelector } from './redux/selectors';
 import { setStatus } from './redux/slice/testSlice';
 
@@ -15,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-     <p>Jjjjaa</p>
+      <TestComponent/>
     </div>
   );
 }

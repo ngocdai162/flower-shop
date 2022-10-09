@@ -1,0 +1,30 @@
+
+    $heightModule : '40px';
+    $primaryColor: '#FF6699';
+    $backgroundInput: '#9999FF';
+    $blackColor: '#000';
+    $whileColor: '#fff';
+    $backgroundContainer: '#D7D7D7';
+    
+    //Text
+    $textFont: '14px';
+    $textWeight: '400';
+    $textColor: '(105,105,105)';
+    $titleColor: '#333';
+
+    //Padding, margin
+    $mainPadding: '7px';
+    $mainMargin :  '7px';
+
+p {
+    margin: 0px;
+    font-size: $textFont ;
+    font-weight: $textWeight ;
+    color: $textColor;
+}
+
+.title-block {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+}

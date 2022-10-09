@@ -1,0 +1,6 @@
+{
+    "reactSnippets.settings.prettierEnabled": true,
+    "prettier.enableDebugLogs": true,
+    "prettier.jsxSingleQuote": true,
+    "bookmarks.useWorkaroundForFormatters": true
+}
