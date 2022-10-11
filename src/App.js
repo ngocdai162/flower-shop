@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Login } from './pages/Login';
+import { Register } from './pages/Register';
 import { TestComponent } from './pages/TestComponent';
 import { testStatusSelector } from './redux/selectors';
 import { setStatus } from './redux/slice/testSlice';
@@ -15,6 +17,9 @@ function App() {
   return (
     <div className="App">
       <TestComponent/>
+      {/* <Login/> */}
+      {/* <Register/> */}
+      
     </div>
   );
 }

@@ -5,8 +5,10 @@ import {style} from "../../constants/style";
 
 const InputStyled = styled.div`
   height: 100% !important;
+  background-color: #999 ;
   input {
     height: 100% !important;
+    background-color: ${style.backgroundInput} ;
   }
   &.input-custom {
     height: ${style.heightModule} !important;

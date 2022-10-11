@@ -7,13 +7,17 @@ import { style } from '../../constants/style';
 const InputSearchStyled =  styled.div`
   height: ${style.heightModule};
   width: 100%;
-  .ant-input-group-wrapper  {
+
+  .ant-input-affix-wrapper {
     border-bottom-left-radius: ${style.borderRadius} !important;
     border-top-left-radius: ${style.borderRadius} !important;
-    
+    background-color: ${style.backgroundInput} ;
+
   }
   input {
-   
+    border-bottom-left-radius: ${style.borderRadius} !important;
+    border-top-left-radius: ${style.borderRadius} !important;
+    background-color: ${style.backgroundInput} ;
   }
   button {
     background-color: ${style.primaryColor} ;

@@ -4,8 +4,7 @@ import { style } from "../../constants/style";
 const ButtonStyled = styled.button`
    height: ${style.heightModule};
    min-width: 100px;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding: 0px ${style.buttonPadding};
    cursor: pointer;
    border-radius: ${style.borderRadius};
    border: 0px;
@@ -16,7 +15,13 @@ const ButtonStyled = styled.button`
    &:hover {
       background-color: ${style.primayHoverColor} ;
    }
+
+   &.blackButton {
+     background-color: #000 ;
+     color: #fff;
+   }
 `;
+
 export const ButtonCustom = (props) => {
     return (
        <ButtonStyled className={`button ${props.type}`} onClick= {props.event}>
